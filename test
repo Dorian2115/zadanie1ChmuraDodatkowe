@@ -1,0 +1,1 @@
+docker buildx build --platform linux/amd64,linux/arm64 --secret id=gh_token,src=./tokenGithub.txt-t ghcr.io/dorian2115/zadanie1chmura/aplikacja_pogodowa:latest --cache-to type=registry,ref=ghcr.io/dorian2115/zadanie1chmura/aplikacja_pogodowa:cache,mode=max --cache-from type=registry,ref=ghcr.io/dorian2115/zadanie1chmura/aplikacja_pogodowa:cache --push .
