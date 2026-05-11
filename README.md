@@ -1,5 +1,5 @@
 Repozytorium zawiera rozwiązanie części nieobowiązkowej zadania 1 (poziom 3)
-### [cite_start]Analiza Podatności (CVE) [cite: 1, 40-43]
+### Analiza Podatności (CVE)
 Obraz został poddany analizie pod kątem podatności przy użyciu narzędzia **Trivy**. Zgodnie z wymaganiami, obraz nie zawiera żadnych zagrożeń sklasyfikowanych jako CRITICAL lub HIGH.
 
 <img width="1901" height="1025" alt="image" src="https://github.com/user-attachments/assets/e3ffa479-d47d-448d-8059-48b6aa0a2c33" />
